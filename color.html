@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 4 and 5</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .underline:hover{
+            text-decoration: underline;
+            transition-duration: 5ms;
+            padding-top: 1px;
+            font-weight: 500;
+        }
+        .scale:hover{
+            scale: 1.02;
+            transition-duration: 500ms;
+        }
+    </style>
+</head>
+<body>
+    <header class="conteiner bg-primary">
+        <div class="row">
+            <div class="col-lg-5 m-auto">
+                <h1 class="text-white text-center mb-0 py-2">Learn Bootstrap</h1>
+            </div>
+            <div class="col-lg-7">
+                <ul class="nav justify-content-center py-3">
+                    <li class="nav-item"><a class="nav-link underline text-white" href="">Home</a></li>
+                    <li class="nav-item"><a class="nav-link underline  text-white" href="">About</a></li>
+                    <li class="nav-item"><a class="nav-link underline text-white" href="">Services</a></li>
+                    <li class="nav-item"><a class="nav-link underline text-white" href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main>
+            <div class="bg-light p-2">
+                <div class="py-4">
+                    <h2 class="text-center text-primary font-weight-bold">Services</h2>
+                </div>
+            <div class="row p-4">
+                <div class="col-lg-3 col-md-6 text-md-center shadow scale">
+                    <i class="fas fa-hands-helping bg-primary py-2 my-1 text-white rounded-circle my-3 fa-2x"></i>
+                    <h5>Web Development</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam officia a magnam ipsa porro aperiam accusantium mollitia minima adipisci, corrupti optio consequatur quae quod perferendis nobis eveniet. Eius numquam illo ipsam dicta soluta, fugiat ea quibusdam voluptates nostrum saepe aperiam laborum, sapiente consequatur sed autem officia quis corrupti eum.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-md-center shadow scale">
+                    <i class="fas fa-hands-helping bg-primary py-2 my-1 text-white rounded-circle my-3 fa-2x"></i>
+                    <h5>Web Development</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam officia a magnam ipsa porro aperiam accusantium mollitia minima adipisci, corrupti optio consequatur quae quod perferendis nobis eveniet. Eius numquam illo ipsam dicta soluta, fugiat ea quibusdam voluptates nostrum saepe aperiam laborum, sapiente consequatur sed autem officia quis corrupti eum.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-md-center shadow scale">
+                    <i class="fas fa-hands-helping bg-primary py-2 my-1 text-white rounded-circle my-3 fa-2x"></i>
+                    <h5>Web Development</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam officia a magnam ipsa porro aperiam accusantium mollitia minima adipisci, corrupti optio consequatur quae quod perferendis nobis eveniet. Eius numquam illo ipsam dicta soluta, fugiat ea quibusdam voluptates nostrum saepe aperiam laborum, sapiente consequatur sed autem officia quis corrupti eum.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-md-center shadow my-1 scale">
+                    <i class="fas fa-hands-helping bg-primary py-2 text-white rounded-circle my-3 fa-2x"></i>
+                    <h5>Web Development</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam officia a magnam ipsa porro aperiam accusantium mollitia minima adipisci, corrupti optio consequatur quae quod perferendis nobis eveniet. Eius numquam illo ipsam dicta soluta, fugiat ea quibusdam voluptates nostrum saepe aperiam laborum, sapiente consequatur sed autem officia quis corrupti eum.</p>
+                </div>
+                </div>
+            </div>
+        </main>
+        <section class="alert alert-secondary rounded">
+            <div class="text-center py-2">
+                <h2 class="text-primary font-weight-bold">About Me</h2>
+            </div>
+            <div class="row container pb-5">
+                <div class="col-md-4">
+                    <img class="img-fluid rounded-circle border mb-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfo7jQb-q2Jb3AEed14suTJzjjzgN4YoW3YA&s" alt="">
+                </div>
+                <div class="col-md-8">
+                    <p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus beatae minus quia cum, cumque tempora eum a earum, tempore veniam voluptates assumenda corporis quo. Delectus laudantium mollitia aut aliquam vel eum ipsa beatae perferendis expedita corporis nobis sapiente tempora voluptas earum quisquam nisi.</p>
+                    <a class="d-block mb-2" href="#demo" data-toggle="collapse">Learn more...</a>
+                    
+                    <div id="demo" class="collapse">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est natus dolore alias id? Sit laboriosam quos ullam nisi exercitationem? Recusandae ipsa nam laudantium omnis ullam tempore iure quod placeat maxime. Impedit labore optio modi error! Numquam eaque, tenetur amet sequi magnam porro laborum minus adipisci dolorem ut voluptatibus, nesciunt rerum?</p>
+                    </div>
+
+                    <button class="btn btn-primary mb-3">CV Download</button>
+
+                    <div class="alert alert-success alert-dismissible">
+                        <button class="close" data-dismiss="alert"> &times; </button>
+                        Have you visited my youtube channel? <a class="" href="">Visit Here</a></div>
+                    <div class="alert alert-primary alert-dismissible">
+                        <button class="close" data-dismiss="alert"> &times;</button>
+                        Have you visited my youtube channel? <a class="" href="">Visit Here</a></div>
+                </div>
+            </div>
+        </section>
+        <section class="customer-review bg-light">
+            <div class="title text-center py-3">
+                <h2 class="font-weight-bolder">Customer Review</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 blockquote text-center">
+                    <blockquote>
+                    <i class="fa-3x p-2 fas fa-user-circle"></i>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque at saepe quis optio. Sit doloremque, laborum accusantium perspiciatis dolores est, laboriosam iste explicabo velit excepturi sequi veniam a quisquam alias enim ad id provident, iusto error perferendis sed aliquid dolorum. Obcaecati adipisci, libero eius eum ex dicta aliquam magni tenetur.In this website we can learn <abbr title="Bootstrap 4">Bs4</abbr></p> 
+                    <footer class="blockquote-footer">
+                        Aronno Chowdhury in <cite>Youtube</cite>
+                    </footer>
+                    </blockquote>
+                </div>
+
+                <div class="col-lg-4 blockquote text-center">
+                    <blockquote>
+                    <i class="fa-3x p-2 fas fa-user-circle"></i>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque at saepe quis optio. Sit doloremque, laborum accusantium perspiciatis dolores est, laboriosam iste explicabo velit excepturi sequi veniam a quisquam alias enim ad id provident, iusto error perferendis sed aliquid dolorum. Obcaecati adipisci, libero eius eum ex dicta aliquam magni tenetur.In this website we can learn <abbr title="Bootstrap 4">Bs4</abbr></p> 
+                    <footer class="blockquote-footer">
+                        Aronno Chowdhury in <cite>Youtube</cite>
+                    </footer>
+                    </blockquote>
+                </div>
+
+                <div class="col-lg-4 blockquote text-center">
+                    <blockquote>
+                    <i class="fa-3x p-2 fas fa-user-circle"></i>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque at saepe quis optio. Sit doloremque, laborum accusantium perspiciatis dolores est, laboriosam iste explicabo velit excepturi sequi veniam a quisquam alias enim ad id provident, iusto error perferendis sed aliquid dolorum. Obcaecati adipisci, libero eius eum ex dicta aliquam magni tenetur.In this website we can learn <abbr title="Bootstrap 4">Bs4</abbr></p> 
+                    <footer class="blockquote-footer">
+                        Aronno Chowdhury in <cite>Youtube</cite>
+                    </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!--Toggleable Dynamic Tab Starts Here-->
+        <section class="alert alert-warning alert-dismissible">
+            <div class="text-center mb-2">
+                <ul class="nav nav-pills justify-content-center">
+                    <li class="nav-item scale"><a data-toggle="pill" class="nav-link" href="#edu">Education</a></li>
+                    <li class="nav-item scale"><a data-toggle="pill" class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item scale"><a data-toggle="pill" class="nav-link" href="#hooby">Hooby</a></li>
+                </ul>
+            </div>
+            <div class="tab-content">
+            <!--Eduation-->
+            <div id="edu" class="tab-pane active">
+                <ul>
+                    <li>Foundation for growth: Education helps us learn, think critically, and solve problems, which are crucial skills for both personal and professional success.</li>
+                    <li>Unlocking potential: It provides the knowledge needed to understand the world and prepares individuals for future challenges and opportunities.</li>
+                    <li>Path to success: An educated person is better equipped to find good jobs and make better life choices.</li>
+                    <li>Building a better society: Education promotes social equality by allowing everyone to succeed, regardless of their background, and fosters understanding among diverse communities.</li>
+                    <li>Beyond the classroom: Learning happens in many places, not just schools. We also gain knowledge from parents, books, and our surroundings. </li>
+                </ul>
+            </div>
+            <!--Skills-->
+            <div id="skills" class="tab-pane fade">
+                <ul class="list-group">
+                    <li class="list-group-item text-center">My Skills</li>
+                    <li class="list-group-item">1. HTMl</li>
+                    <li class="list-group-item">2. CSS</li>
+                    <li class="list-group-item">3. JavaScript</li>
+                </ul>
+            </div>
+            <!--Hobby-->
+            <div id="hooby" class="tab-pane fade">
+                <ul class="list-group">
+                    <li class="list-group-item text-center">My Hobby</li>
+                    <li class="list-group-item">1. Travaling</li>
+                    <li class="list-group-item">2. Dancing</li>
+                    <li class="list-group-item">3. Coding</li>
+                </ul>
+            </div>
+            </div>
+        </section>
+
+        <section class="student-list">
+            <ul class="list-group">
+                <li class="list-group-item bg-primary text-white">1. Aronno Chowdhury</li>
+                <li class="list-group-item bg-success text-white">2. Arnaf Chowdhury</li>
+                <li class="list-group-item bg-secondary text-white">3. Ariyan Mirza</li>
+                <a class="list-group-item text-center bg-primary text-white list-group-item-active" href="">Submit</a>
+            </ul>
+        </section>
+        <footer class="pb-3 pt-4 bg-dark">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="">Pre</a></li>
+                <li class="page-item"><a class="page-link" href="">1</a></li>
+                <li class="page-item"><a class="page-link" href="">2</a></li>
+                <li class="page-item"><a class="page-link" href="">3</a></li>
+                <li class="page-item"><a class="page-link" href="">Next</a></li>
+            </ul>
+        </footer>
+    </div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</head>
+</html>
